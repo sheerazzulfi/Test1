@@ -1,4 +1,4 @@
-//Program to get integers from string
+//Program to get integers from string///
 
 class SplitString
 {
@@ -7,6 +7,7 @@ class SplitString
 		String a="10,201?30.5|44";
 
 		String[] b = a.split("\\D+");
+		String c=null;
 
 		int [] c= new int[b.length];
 
